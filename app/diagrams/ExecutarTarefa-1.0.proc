@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
-  <process:MainProcess xmi:id="_wj7CAFUwEfGzC9Wm-s3yKA" name="MyDiagram" bonitaModelVersion="9">
+  <process:MainProcess xmi:id="_wj7CAFUwEfGzC9Wm-s3yKA" name="ExecutarTarefa" bonitaModelVersion="9">
     <elements xmi:type="process:Pool" xmi:id="_wj7CAVUwEfGzC9Wm-s3yKA" name="Executar tarefa">
-      <elements xmi:type="process:Lane" xmi:id="_wj7CAlUwEfGzC9Wm-s3yKA" name="Employee lane" actor="_wj7CG1UwEfGzC9Wm-s3yKA">
+      <elements xmi:type="process:Lane" xmi:id="_wj7CAlUwEfGzC9Wm-s3yKA" name="Programador" actor="_wj7CG1UwEfGzC9Wm-s3yKA">
         <elements xmi:type="process:StartEvent" xmi:id="_wj7CA1UwEfGzC9Wm-s3yKA" name="Início de execução" outgoing="_Q0qzQFU2EfG9gdewPlyhNw">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_wj7CBFUwEfGzC9Wm-s3yKA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_wj7CBVUwEfGzC9Wm-s3yKA" name="" content="" returnTypeFixed="true"/>
