@@ -100,13 +100,13 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_ge3mk1qtEfGAYJshXqcnnw"/>
         <condition xmi:type="expression:Expression" xmi:id="_ge3mlFqtEfGAYJshXqcnnw" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_3sMBwFqtEfGAYJshXqcnnw" name="Não" target="_3sI-cFqtEfGAYJshXqcnnw" source="_g4-IoFqtEfGAYJshXqcnnw">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_3sMBwFqtEfGAYJshXqcnnw" name="Não" target="_3sI-cFqtEfGAYJshXqcnnw" source="_g4-IoFqtEfGAYJshXqcnnw" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_3sMBwVqtEfGAYJshXqcnnw"/>
         <condition xmi:type="expression:Expression" xmi:id="_3sMBwlqtEfGAYJshXqcnnw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_ABff0VquEfGAYJshXqcnnw" name="Sim" target="_HkG8sFquEfGAYJshXqcnnw" source="_g4-IoFqtEfGAYJshXqcnnw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_ABff0lquEfGAYJshXqcnnw"/>
-        <condition xmi:type="expression:Expression" xmi:id="_ABff01quEfGAYJshXqcnnw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_ABff01quEfGAYJshXqcnnw" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_JRAjYVquEfGAYJshXqcnnw" target="_PrxAUFquEfGAYJshXqcnnw" source="_HkG8sFquEfGAYJshXqcnnw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_JRAjYlquEfGAYJshXqcnnw"/>
@@ -196,7 +196,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_HkIK0FquEfGAYJshXqcnnw" type="3025" element="_HkG8sFquEfGAYJshXqcnnw" fontName="Google Sans Flex" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_HkIK0lquEfGAYJshXqcnnw" type="5011"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HkIK0VquEfGAYJshXqcnnw" x="338" y="179" width="184" height="92"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HkIK0VquEfGAYJshXqcnnw" x="346" y="179" width="184" height="92"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_6yppo1U8EfG9gdewPlyhNw"/>
@@ -276,7 +276,7 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_ABgG4FquEfGAYJshXqcnnw" type="4001" element="_ABff0VquEfGAYJshXqcnnw" source="_g4-vs1qtEfGAYJshXqcnnw" target="_HkIK0FquEfGAYJshXqcnnw" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_ABgG41quEfGAYJshXqcnnw" type="6001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_ABgG5FquEfGAYJshXqcnnw" x="-47" y="-23"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ABgG5FquEfGAYJshXqcnnw" x="-10" y="-17"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_ABgG4VquEfGAYJshXqcnnw" fontName="Google Sans Flex"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ABgG4lquEfGAYJshXqcnnw" points="[-7, 14, -8, -124]$[-7, 92, -8, -46]"/>
